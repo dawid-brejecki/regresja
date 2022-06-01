@@ -20,7 +20,7 @@ from sklearn.tree import DecisionTreeRegressor
 
 
 
-df=pd.read_csv('Desktop/output.csv')
+df=pd.read_csv('output.csv')
 
 # wybranie tylko interesujacych kolumn ze zbioru
 df = df.iloc[:,[4,6,7,8,9,10,11]]
